@@ -28,13 +28,13 @@ Ionicon
 --rich-black-fogra-29-2: hsl(230, 14%, 8%);
 --rich-black-fogra-39: hsl(158, 29%, 5%);
 --granite-gray: hsl(0, 0%, 40%);
---go-green_50: hsla(145, 63%, 42%, 0.5);
---go-green_8: hsla(145, 63%, 42%, 0.08);
---go-green_5: hsla(145, 63%, 42%, 0.05);
+--theme-main_50: hsla(145, 63%, 42%, 0.5);
+--theme-main_8: hsla(145, 63%, 42%, 0.08);
+--theme-main_5: hsla(145, 63%, 42%, 0.05);
 --light-gray: hsl(0, 0%, 80%);
 --mint-cream: hsl(160, 100%, 98%);
 --cultured: hsl(0, 0%, 93%);
---go-green: hsl(145, 63%, 42%);
+--theme-main: hsl(145, 63%, 42%);
 --white: hsl(0, 0%, 100%);
 --jet: hsl(0, 0%, 18%);
 ```
