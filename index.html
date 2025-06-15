@@ -22,9 +22,11 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
-    rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 
   <!-- 
     - preload images
@@ -122,8 +124,10 @@
 
           </div>
 
-          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+          <figure class="hero-banner has-before img-holder overlay-hover-wrapper"
+            style="--width: 650px; --height: 650px;">
             <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+            <span class="hero-image-overlay"></span>
           </figure>
 
         </div>
@@ -140,9 +144,9 @@
       <section class="section about" id="about" aria-label="about">
         <div class="container">
 
-          <figure class="about-banner">
+          <figure class="about-banner about-banner-wrapper">
             <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
-              class="w-100">
+              class="w-100 radius-5 img-cover">
           </figure>
 
           <div class="about-content">
@@ -612,13 +616,13 @@
     - #FOOTER
   -->
 
- <footer class="footer" style="padding: 2rem 1rem; text-align: center; background-color: #000; color: #fff;">
-  <div class="container" style="max-width: 1200px; margin: 0 auto;">
-    <p class="copyright" style="margin: 0;">
-      &copy; 2025 ChitChat AI | All Rights Reserved
-    </p>
-  </div>
-</footer>
+  <footer class="footer" style="padding: 2rem 1rem; text-align: center; background-color: #000; color: #fff;">
+    <div class="container" style="max-width: 1200px; margin: 0 auto;">
+      <p class="copyright" style="margin: 0;">
+        &copy; 2025 ChitChat AI | All Rights Reserved
+      </p>
+    </div>
+  </footer>
 
 
 
